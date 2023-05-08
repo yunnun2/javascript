@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="utf-8" />
+    <mata http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <title>Hello Javascript</title>
+    <!-- javascript start -->
+    <script>
+    var point = 82;
+    //임의로 비워둔 값
+    var grade = null;
+
+    if (90 < point && point <= 100) {
+        grade = "A";
+    } else if (80 < point && point <= 90) {
+        grade = "B";
+    } else if (70 < point && point <= 80) {
+        grade = "C";
+    } else {
+        grade = "F";
+    }
+
+    var msg = "<h1>" + grade + "학점입니다.</h1>";
+    document.write(msg);
+    </script>
+    <!-- javascript end -->
+</head>
+<body>
+
+</body>
+</html>
